@@ -1,0 +1,61 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:125:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m125 |[0m    [33melse[0m Exploding.init(numberOfParticles, direction, position, particlesColor)[0m
+[0m[[0m[31merror[0m] [0m[0m    |    [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |    'then' expected, but 'else' found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E018] Syntax Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:293:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m293 |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |expression expected but [31meof[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:45:11 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m      [33mcase[0m Done => Done[0m
+[0m[[0m[31merror[0m] [0m[0m   |           [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |           Not found: Done[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:45:19 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m      [33mcase[0m Done => Done[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   [31m^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                   Not found: Done[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:48:18 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m48 |[0m      [33mcase[0m state: Exploding => state.next[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  Not found: type Exploding[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:76:18 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m    [33melse[0m Launched.init(startPosition, numberOfParticles, particlesColor)[0m
+[0m[[0m[31merror[0m] [0m[0m   |         [31m^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |value init is not a member of object fireworks.Launched - did you mean Launched.wait?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:87:16 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m87 |[0m    [33mval[0m [36mcolor[0m = Settings.colors(Random.nextInt(Settings.colors.length))[0m
+[0m[[0m[31merror[0m] [0m[0m   |                [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                Not found: Settings[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:91:22 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m      (Random.nextInt(Settings.width / [31m2[0m) - Settings.width / [31m4[0m).toDouble,[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                      Not found: Settings[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:91:44 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m91 |[0m      (Random.nextInt(Settings.width / [31m2[0m) - Settings.width / [31m4[0m).toDouble,[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                            [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                            Not found: Settings[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:92:8 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m92 |[0m      (-Settings.height / [31m2[0m).toDouble[0m
+[0m[[0m[31merror[0m] [0m[0m   |        [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        Not found: Settings[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:124:21 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m    [33mif[0m countDown > [31m0[0m copy(countDown = countDown - [31m1[0m, position = Motion.movePoint(position, direction, Settings.propulsionSpeed), particlesColor = particlesColor)[0m
+[0m[[0m[31merror[0m] [0m[0m    |       [31m^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value copy is not a member of Boolean, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |The following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import cats.Show.Shown.mat[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:124:64 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m    [33mif[0m countDown > [31m0[0m copy(countDown = countDown - [31m1[0m, position = Motion.movePoint(position, direction, Settings.propulsionSpeed), particlesColor = particlesColor)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                                [31m^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                     Not found: Motion[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E129] Potential Issue Warning: /Users/tanjimhossain/Downloads/fireworks/src/main/scala/fireworks/Fireworks.scala:124:161 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m124 |[0m    [33mif[0m countDown > [31m0[0m copy(countDown = countDown - [31m1[0m, position = Motion.movePoint(position, direction, Settings.propulsionSpeed), particlesColor = particlesColor)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                                                                                                                                                                 [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |A pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m12 errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m12 errors found[0m
