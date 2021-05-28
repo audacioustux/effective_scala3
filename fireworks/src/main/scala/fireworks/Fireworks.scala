@@ -38,7 +38,7 @@ object Firework:
   // def next(firework: Firework): Firework =
   //   firework match {
   //     case Done => Done
-  //     case Waiting | Launched | Exploding => firework.next
+  //     case state @ (_ : Waiting | _ : Launched | _ : Exploding) => state.next
   //   }
   def next(firework: Firework): Firework =
     firework match {
